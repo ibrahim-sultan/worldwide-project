@@ -1,0 +1,101 @@
+body{
+    margin: auto 0px;
+    background-image: url(img/zoe-_6vkt5JFPXk-unsplash.jpg);
+    background-size: cover;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    [class*="col-"]{
+        width: 100%;
+
+    } 
+}
+
+
+.zone{
+     /* padding: 30px 50px;
+    margin: 40px 60px;  */
+    cursor: pointer;
+     /* display: inline-block;  */
+    color:ffff;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid ;
+    transition: all 0.3s linear;
+
+   }
+
+.zone:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    
+  }
+  
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: o.7em;
+    margin: 0px;
+    background-color: rgba(75, 69, 168, 0.61);
+    border: rgba(75, 69, 168, 0.61);
+  }
+
+  /* @media only screen and (max-width:600px){
+      .main-nav{
+          font-size: 0.5em;
+          padding: 0px ;
+      }
+  } */
+
+.push{
+     margin-left: auto;
+}
+
+li{
+    padding: 20px;
+  } 
+
+a{
+   color:blueviolet ;
+   text-decoration: none;
+} 
+@media only screen and (max-width:768px){
+    [class*="col-"]
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: lightskyblue;
+    font-style: oblique;
+    font-size: 80px;
+    border: lightskyblue;
+}
+}
+
+
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr))
+}
+
+.box > img{
+    width: 100%;
+}
+
+.box{
+     background-color: grey;
+     padding: 10px;
+     margin: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightskyblue;
+}
